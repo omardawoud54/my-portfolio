@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Omar Dawoud</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  <header id="home">
+    <video autoplay loop muted playsinline class="video-background">
+      <source src="assets/minimal-sine-ribbons-3.0s-loop.webm" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <img src="assets/me.png" alt="Omar Dawoud">
+    <div class="welcoming">
+      <h1>HI,</h1>
+      <h1 class="meeting">Meet Omar!</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#content">My Content</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#home">Omar Dawoud</a>
+    </nav>
+  </header>
+  <main>
+    <section class="my-content" id="content">
+      <aside class="tech-n-taps-socials">
+        <h2 class="channel-name">Tech & Taps</h2>
+        <ul class="social-links">
+          <li class="youtube"><a href="https://www.youtube.com/@Tech-n-Taps"><img src="assets/youtube.png" alt="Youtube"><span>Youtube</span></a></li>
+          <li class="facebook"><a href="https://www.facebook.com/profile.php?id=61595390810543"><img src="assets/facebook.png" alt="Facebook"><span>Facebook</span></a></li>
+          <li class="instagram"><a href="https://www.instagram.com/tech_n_taps/"><img src="assets/instagram.png" alt="Instagram"><span>Instagram</span></a></li>
+          <li class="tiktok"><a href="https://www.tiktok.com/@omardawoud84"><img src="assets/tiktok.png" alt="Tiktok"><span>Tiktok</span></a></li>
+        </ul>
+      </aside>
+      <div class="description-of-channel">
+        <p>Tech & Taps is a technology channel that talks about computer science, simplifies complex tech concepts, and highlights common mistakes users make with their devices. It offers the best ways to utilize technology, covers the latest tech news, and explores fascinating insights from modern science.</p>
+      </div>
+      <div class="best-videos">
+        <h2 class="section-title">My Best Videos</h2>
+        <div class="videos-grid" id="youtube-videos-container">
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+<script>
+  const latestVideos = [
+    { id: "gXfTvBZbR-s", title: "⚠️ 3 أخطاء تقتل جهازك الكومبيوتر فوراً.. " },
+    { id: "61KAlTYJJtA", title: "ايه الي بيحصل أول كا تضغط علي زر الباور؟ ⚡️اصلها وفصلها (ح1 الكمبيوتر)" },
+    { id: "vC5rR-uKThg", title: "إغلاق التطبيقات في الخلفية بيحمي البطارية!" }
+  ];
+
+  const container = document.getElementById('youtube-videos-container');
+  container.innerHTML = '';
+
+  latestVideos.forEach(video => {
+    const videoCard = `
+      <div class="video-card">
+        <div class="video-wrapper">
+          <iframe 
+            src="https://www.youtube.com/embed/${video.id}" 
+            title="${video.title}" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
+        </div>
+        <h3 class="video-title">${video.title}</h3>
+      </div>
+    `;
+    container.innerHTML += videoCard;
+  });
+</script>
+</html>
