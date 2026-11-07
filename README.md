@@ -4,14 +4,10 @@ Welcome to the official repository for my personal portfolio website and **Tech 
 
 This website serves as my digital space to introduce who I am, showcase my continuous journey in Web Development, and present my tech channel content where I break down complex computer science concepts into simplified, engaging topics.
 
----
-
 ## 🌐 Live Demo
 
 Check out the live website hosted on GitHub Pages:
 👉 **[View Portfolio](https://omardawoud54.github.io/my-portfolio/)**
-
----
 
 ## 📌 Project Features
 
@@ -21,15 +17,12 @@ Check out the live website hosted on GitHub Pages:
 - **Social Hub:** Customized, brand-colored social media links with glowing visual effects on hover.
 - **Smooth Navigation:** Fixed, modern glassmorphic navigation bar with smooth scrolling logic
 
----
 
 ## 🛠️ Tech Stack & Skills Used
 
 - **HTML5:** Semantic structure and accessible markup.
 - **Sass / SCSS:** Structured, modular styles compiled into minified CSS for clean and scalable architecture.
 - **JavaScript (Vanilla):** Basic DOM manipulation to dynamically generate and display video cards.
-
----
 
 ## 📁 Repository Structure
 
@@ -43,8 +36,6 @@ Check out the live website hosted on GitHub Pages:
 ├── LICENSE                  # Open-source MIT License
 └── README.md                # Project documentation
 ```
-
----
 
 ## 📄 License
 
