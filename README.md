@@ -1,57 +1,55 @@
-# 🚀 Personal Portfolio & Tech & Taps
+# Omar Dawoud — Personal Portfolio
 
-Welcome to the official repository for my personal portfolio website and **Tech & Taps** content hub!
+A personal portfolio website introducing Omar Dawoud, showcasing selected web projects, and featuring **Tech & Taps**, a technology channel about computer science and practical tech topics.
 
-This website serves as my digital space to introduce who I am, showcase my continuous journey in Web Development, and present my tech channel content where I break down complex computer science concepts into simplified, engaging topics.
+## Live site
 
-## 🌐 Live Demo
+[View the portfolio](https://omardawoud54.github.io/my-portfolio/)
 
-Check out the live website hosted on GitHub Pages:
-👉 **[View Portfolio](https://omardawoud54.github.io/my-portfolio/)**
+## What’s on the site
 
-## 📌 Project Features
+- **Welcome section** with a looping video background and portfolio navigation.
+- **Tech & Taps** channel overview, social links, and a selection of embedded YouTube videos.
+- **Featured projects** with preview images, descriptions, live demos, and GitHub repositories.
+- **About section** describing Omar and his current technical toolkit.
+- **Contact links** for Facebook, Instagram, and email.
 
-- **Modern & Clean UI:** Designed with custom color gradients, glowing hover states, glassmorphic elements, and smooth transitions.
-- **Dynamix Content Section:** Embedded Youtube video cards rendered dynamically via lightweight, vanilla JavaScript.
-- **Interactive Background:** Hero header featuring a smooth background video loop.
-- **Social Hub:** Customized, brand-colored social media links ((YouTube, Facebook, Instagram, TikTok)) with glowing hover effects.
-- **Responsive Featured Projects:** Showcase grid highlighting real projects with live links and code repositories.
-- **About Section:** Personal introduction and background detailing ongoing technical exploration.
-- **Smooth Navigation:** Fixed, modern glassmorphic navigation bar with smooth scrolling logic.
+## Built with
 
+- HTML for the page structure and content.
+- SCSS for modular styling, compiled to the minified stylesheet used by the page.
+- Vanilla JavaScript embedded in `index.html` to render the YouTube video cards.
 
-## 🛠️ Tech Stack & Skills Used
+YouTube embeds and the Google Font are loaded from their respective services, so those features require an internet connection.
 
-- **HTML5:** Semantic structure and accessible markup.
-- **Sass / SCSS:** Structured, modular styles (`_navbar.scss`, `_header.scss`, `_content.scss`, `_projects.scss`, `_about.scss`) compiled into minified CSS for clean and scalable architecture.
-- **JavaScript (Vanilla):** Basic DOM manipulation to render Youtube video feeds.
-- **Git & GitHub:** Version control and GitHub Pages deployment.
+## Run locally
 
-## 📁 Repository Structure
+No package installation or build step is required. Clone or download the repository, then open `index.html` in a browser. For local development, you can also serve the repository with any static-file server.
+
+## Repository structure
 
 ```text
-├── assets/                  # Media files (Images, Icons, Background Videos)
+├── assets/                  # Profile, project, social, and background media
 ├── css/
-│   ├── style.css            # Standard compiled CSS
-│   └── style.min.css        # Minified production CSS used in HTML
+│   └── style.min.css        # Stylesheet loaded by index.html
 ├── scss/
-│   ├── _navbar.scss         # Navbar component styles
-│   ├── _header.scss         # Header and video background styles
-│   ├── _content.scss        # Content hub and social links styles
-│   ├── _projects.scss       # Projects section grid and card styles
-│   ├── _about.scss          # About me section styles
-│   └── style.scss           # Main SCSS entry point
-├── index.html               # Primary HTML markup
-├── LICENSE                  # Open-source MIT License
-└── README.md                # Project documentation
+│   ├── _about.scss          # About section
+│   ├── _content.scss        # Tech & Taps and video content
+│   ├── _header.scss         # Welcome section and background video
+│   ├── _navbar.scss         # Navigation
+│   ├── _projects.scss       # Featured project cards
+│   └── style.scss           # SCSS entry point
+├── index.html               # Portfolio page and video-card script
+├── LICENSE
+└── README.md
 ```
 
-## 🚀 Featured Projects
+## Featured projects
 
-[Blog Post Layout Website](https://omardawoud54.github.io/Blog-Post/) [code](https://github.com/omardawoud54/Blog-Post): A clean, responsive blog layout built with modern CSS practices.
-[Neon Loading Animation](https://omardawoud54.github.io/loading-animation/) [code](https://github.com/omardawoud54/loading-animation): An eye-catching, glowing CSS loading animation designed for smooth UIs.
-[Writings.dev Website Layout](https://omardawoud54.github.io/writings-dev/) [code](https://github.com/omardawoud54/writings-dev): A faithful and responsive layout clone inspired by writings.dev.
+- [Blog Post Layout Website](https://omardawoud54.github.io/Blog-Post/) · [Source code](https://github.com/omardawoud54/Blog-Post)
+- [Neon Loading Animation](https://omardawoud54.github.io/loading-animation/) · [Source code](https://github.com/omardawoud54/loading-animation)
+- [Writings.dev Website Layout](https://omardawoud54.github.io/writings-dev/) · [Source code](https://github.com/omardawoud54/writings-dev)
 
-## 📄 License
+## License
 
-This project is open-source and available under the MIT License.
+This project is available under the [MIT License](LICENSE).
