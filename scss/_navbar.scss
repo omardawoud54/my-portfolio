@@ -1,0 +1,39 @@
+nav {
+  background-color: rgba(250, 249, 246, 0.4);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(250, 249, 246, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.08);
+  padding: 30px;
+  border-radius: 35px;
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  height: 60px;
+  align-items: center;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 10;
+
+  ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+  }
+
+  a {
+    color: #FAF9F6;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 10px;
+    transition: background-color 150ms ease, color 150ms ease;
+
+    &:hover {
+      background-color: darken(rgba(11, 15, 25, 0.1), 10%); 
+      color: #FAF9F6;
+    }
+  }
+}
