@@ -42,7 +42,10 @@ Check out the live website hosted on GitHub Pages:
 ├── index.html               # Primary HTML markup
 ├── LICENSE                  # Open-source MIT License
 └── README.md                # Project documentation
+```
 
-📄 License
+---
+
+## 📄 License
 
 This project is open-source and available under the MIT License.
