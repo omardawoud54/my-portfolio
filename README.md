@@ -11,18 +11,21 @@ Check out the live website hosted on GitHub Pages:
 
 ## 📌 Project Features
 
-- **Modern & Clean UI:** Designed with custom color gradients, glowing hover states, and smooth transitions.
-- **Dynamix Content Section:** Embedded Youtube video cards rendered via lightweight, vanilla JavaScript.
+- **Modern & Clean UI:** Designed with custom color gradients, glowing hover states, glassmorphic elements, and smooth transitions.
+- **Dynamix Content Section:** Embedded Youtube video cards rendered dynamically via lightweight, vanilla JavaScript.
 - **Interactive Background:** Hero header featuring a smooth background video loop.
-- **Social Hub:** Customized, brand-colored social media links with glowing visual effects on hover.
-- **Smooth Navigation:** Fixed, modern glassmorphic navigation bar with smooth scrolling logic
+- **Social Hub:** Customized, brand-colored social media links ((YouTube, Facebook, Instagram, TikTok)) with glowing hover effects.
+- **Responsive Featured Projects:** Showcase grid highlighting real projects with live links and code repositories.
+- **About Section:** Personal introduction and background detailing ongoing technical exploration.
+- **Smooth Navigation:** Fixed, modern glassmorphic navigation bar with smooth scrolling logic.
 
 
 ## 🛠️ Tech Stack & Skills Used
 
 - **HTML5:** Semantic structure and accessible markup.
-- **Sass / SCSS:** Structured, modular styles compiled into minified CSS for clean and scalable architecture.
-- **JavaScript (Vanilla):** Basic DOM manipulation to dynamically generate and display video cards.
+- **Sass / SCSS:** Structured, modular styles (`_navbar.scss`, `_header.scss`, `_content.scss`, `_projects.scss`, `_about.scss`) compiled into minified CSS for clean and scalable architecture.
+- **JavaScript (Vanilla):** Basic DOM manipulation to render Youtube video feeds.
+- **Git & GitHub:** Version control and GitHub Pages deployment.
 
 ## 📁 Repository Structure
 
@@ -31,11 +34,23 @@ Check out the live website hosted on GitHub Pages:
 ├── css/
 │   ├── style.css            # Standard compiled CSS
 │   └── style.min.css        # Minified production CSS used in HTML
-├── style.scss               # Main SCSS source file
+├── scss/
+│   ├── _navbar.scss         # Navbar component styles
+│   ├── _header.scss         # Header and video background styles
+│   ├── _content.scss        # Content hub and social links styles
+│   ├── _projects.scss       # Projects section grid and card styles
+│   ├── _about.scss          # About me section styles
+│   └── style.scss           # Main SCSS entry point
 ├── index.html               # Primary HTML markup
 ├── LICENSE                  # Open-source MIT License
 └── README.md                # Project documentation
 ```
+
+## 🚀 Featured Projects
+
+[Blog Post Layout Website](https://omardawoud54.github.io/Blog-Post/) [code](https://github.com/omardawoud54/Blog-Post): A clean, responsive blog layout built with modern CSS practices.
+[Neon Loading Animation](https://omardawoud54.github.io/loading-animation/) [code](https://github.com/omardawoud54/loading-animation): An eye-catching, glowing CSS loading animation designed for smooth UIs.
+[Writings.dev Website Layout](https://omardawoud54.github.io/writings-dev/) [code](https://github.com/omardawoud54/writings-dev): A faithful and responsive layout clone inspired by writings.dev.
 
 ## 📄 License
 
