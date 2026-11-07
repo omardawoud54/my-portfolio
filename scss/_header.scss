@@ -17,11 +17,10 @@ header {
     border-radius: 20px;
     outline: #0b0f19 solid 20px;
     z-index: 2;
-    transition: right 500ms ease-out, outline-color 250ms ease, background-color 250ms ease;
+    transition: transform 500ms ease-out, outline-color 250ms ease, background-color 250ms ease;
 
     &:hover {
-      // width: 300px;
-      right: 20%;
+      transform: translateY(-10px) scale(1.04);
       outline-color: lighten(#0b0f19, 10%);
       background-color: lighten(#172034, 10%);
     }

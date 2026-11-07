@@ -163,6 +163,7 @@
     font-size: 20px;
     box-shadow: -1px 11px 20px 10px darken(#1A2234, 10%);
     transition: transform 250ms ease;
+    text-shadow: 2px 3px 11px #0000007a;
 
     &:hover {
       transform: scale(1.03) translateY(-10px);
