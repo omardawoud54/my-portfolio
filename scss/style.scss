@@ -4,6 +4,7 @@
 @import "header";
 @import "projects";
 @import "about";
+@import "media";
 
 * {
     margin: 0;
@@ -27,6 +28,7 @@ body {
     background-color: #222D4F;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 .gmail:hover {
