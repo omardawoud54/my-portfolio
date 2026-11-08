@@ -8,8 +8,10 @@
   }
 
   header .me {
-    width: 200px;
-    top: 200px;
+    width: clamp(160px, 24vw, 240px);
+    max-width: 30vw;
+    top: clamp(180px, 24vh, 280px);
+    right: clamp(20px, 5vw, 48px);
   }
 
   nav {
@@ -146,5 +148,15 @@
 
   .about-desc + .about-desc {
     margin-top: 1rem;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1000px) {
+  .welcoming {
+    left: clamp(8%, 12vw, 15%);
+
+    .meeting {
+      font-size: clamp(3.75rem, 8vw, 4.6875rem);
+    }
   }
 }
